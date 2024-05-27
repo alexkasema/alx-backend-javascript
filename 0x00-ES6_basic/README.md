@@ -44,3 +44,5 @@ Write a function named createEmployeesObject that will receive two arguments:
 
 departmentName (String)
 employees (Array of Strings)
+## 12-createReportObject.js
+Let's create a report object.
