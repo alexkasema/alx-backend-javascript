@@ -24,4 +24,5 @@ Modify the following function to return the number of arguments passed to it usi
 ## 5-spread-operator.js
 The wonders of spread syntax
 Using spread syntax, concatenate 2 arrays and each character of a string. Your function body should be one line long.
-
+## 6-string-interpolation.js
+write the return statement to use a template literal so you can the substitute the variables you’ve defined.
