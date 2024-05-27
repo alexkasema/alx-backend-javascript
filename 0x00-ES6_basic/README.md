@@ -39,3 +39,8 @@ ES6 method properties
 Write getFullBudgetObject to use ES6 method properties in the fullBudget object.
 ## 10-loops.js
 Write the function appendToEachArrayValue to use ES6’s for...of operator. And don’t forget that var is not ES6-friendly.
+## 11-createEmployeesObject.js
+Write a function named createEmployeesObject that will receive two arguments:
+
+departmentName (String)
+employees (Array of Strings)
