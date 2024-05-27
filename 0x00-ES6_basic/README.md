@@ -21,3 +21,7 @@ Hint: The key here to define default parameter values for the function parameter
 ## 4-rest-parameter.js
 Rest parameter syntax for functions
 Modify the following function to return the number of arguments passed to it using the rest parameter syntax.
+## 5-spread-operator.js
+The wonders of spread syntax
+Using spread syntax, concatenate 2 arrays and each character of a string. Your function body should be one line long.
+
