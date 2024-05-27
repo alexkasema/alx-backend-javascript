@@ -18,3 +18,6 @@ Rewrite a standard function to use ES6’s arrow syntax of the function add (it 
 Parameter defaults
 Condense the internals of the function to 1 line - without changing the name of each function/variable.
 Hint: The key here to define default parameter values for the function parameters.
+## 4-rest-parameter.js
+Rest parameter syntax for functions
+Modify the following function to return the number of arguments passed to it using the rest parameter syntax.
