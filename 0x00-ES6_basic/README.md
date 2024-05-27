@@ -34,3 +34,6 @@ Modify the following function’s budget object to simply use the keyname instea
 ## 8-getBudgetCurrentYear.js
 No need to create empty objects before adding in properties.
 write the getBudgetForCurrentYear function to use ES6 computed property names on the budget object.
+## 9-getFullBudget.js
+ES6 method properties
+Write getFullBudgetObject to use ES6 method properties in the fullBudget object.
