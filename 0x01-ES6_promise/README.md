@@ -74,3 +74,11 @@ When the mathFunction function is executed, the value returned by the function s
   1000,
   'Guardrail was processed',
 ]
+## 100-await.js
+Import uploadPhoto and createUser from utils.js
+
+Write an async function named asyncUploadUser that will call these two functions and return an object with the following format:
+{
+  photo: response_from_uploadPhoto_function,
+  user: response_from_createUser_function,
+}
