@@ -41,4 +41,7 @@ Using the function signUpUser(firstName, lastName) return a resolved promise wit
   firstName: value,
   lastName: value,
 }
+## 5-photo-reject.js
+Write and export a function named uploadPhoto. It should accept one argument fileName (string).
 
+The function should return a Promise rejecting with an Error and the string $fileName cannot be processed.
