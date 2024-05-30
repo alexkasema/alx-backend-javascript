@@ -29,4 +29,5 @@ const Rectangle = class Rectangle2 {
   }
 };
 ```
-
+## 0-classroom.js
+Implement a class named ClassRoom: It should accept one attribute named maxStudentsSize (Number) and assigned to _maxStudentsSize
