@@ -94,3 +94,12 @@ name (String)
 code (String)
 Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
 The default string description of the class should return the airport code.
+## 8-hbtn_class.js
+mplement a class named HolbertonClass:
+
+Constructor attributes:
+size (Number)
+location (String)
+Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
+When the class is cast into a Number, it should return the size.
+When the class is cast into a String, it should return the location.
