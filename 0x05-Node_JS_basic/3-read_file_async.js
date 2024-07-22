@@ -1,6 +1,6 @@
 const { readFile } = require('fs');
 
-const countStudents = (path) => {
+function countStudents(path) {
   return new Promise((resolve, reject) => {
     readFile(path, 'utf8', (err, data) => {
       if (err) {
@@ -45,6 +45,6 @@ const countStudents = (path) => {
       resolve(response);
     });
   });
-};
+}
 
 module.exports = countStudents;
