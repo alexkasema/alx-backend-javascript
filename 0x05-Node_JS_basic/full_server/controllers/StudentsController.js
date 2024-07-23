@@ -10,9 +10,9 @@ class StudentsController {
         students.push('This is the list of our students');
 
         for (const field of Object.keys(fields)) {
-	  message = `Number of students in ${field}: ${
-	    fields[field].length
-	  }. List: ${fields[field].join(', ')}`;
+          message = `Number of students in ${field}: ${
+            fields[field].length
+          }. List: ${fields[field].join(', ')}`;
 
           students.push(message);
         }
@@ -31,12 +31,12 @@ class StudentsController {
     } else {
       readDatabase(DATABASE)
         .then((fields) => {
-	  const students = fields[major];
+          const students = fields[major];
 
           response.status(200).send(`List: ${students.join(', ')}`);
         })
         .catch(() => {
-	  response.status(500).send('Cannot load the database');
+          response.status(500).send('Cannot load the database');
         });
     }
   }
