@@ -22,4 +22,9 @@ describe('Test calculateNumber function:', function () {
       assert.strictEqual(calculateNumber(1.5, 3.7), 6);
     });
   });
+  describe('The sum of two floats:', function () {
+    it('Should return 1.', function () {
+      assert.strictEqual(calculateNumber(0.3, 0.5), 1);
+    });
+  });
 });
