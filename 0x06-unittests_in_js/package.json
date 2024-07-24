@@ -4,11 +4,13 @@
   "description": "Unit Tests",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha.js"
+    "test": "node ./node_modules/mocha/bin/mocha.js"
   },
   "author": "Alex Kasema",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^10.7.0"
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0",
+    "sinon": "^18.0.0"
   }
 }
