@@ -1,15 +1,8 @@
 {
-  "name": "0x06-unittests_in_js",
-  "version": "1.0.0",
-  "description": "Unit Tests",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha.js"
+    "test": "node ./node_modules/mocha/bin/mocha"
   },
-  "author": "Alex Kasema",
-  "license": "ISC",
-  "devDependencies": {
-    "chai": "^5.1.1",
-    "mocha": "^10.7.0",
-    "sinon": "^18.0.0"
+  "dependencies": {
+    "mocha": "^10.7.0"
   }
 }
